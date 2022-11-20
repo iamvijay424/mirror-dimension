@@ -1,0 +1,4 @@
+string_input=input('enter any word which you want to mirror it :')
+stringlength=len(string_input)
+slicedstring=string_input[stringlength::-1]
+print(slicedstring)
